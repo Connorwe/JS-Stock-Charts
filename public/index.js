@@ -93,12 +93,4 @@ function findHighest(values) {
     return highest
 }
 
-function calculateAverage(values) {
-    let total = 0;
-    values.forEach(value => {
-        total += parseFloat(value.high)
-    })
-    return total / values.length
-}
-
 main()
